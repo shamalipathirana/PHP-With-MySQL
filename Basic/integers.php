@@ -11,8 +11,16 @@
         $var1=30;
         $var2=40;
         echo $var1+$var2;
+        echo "<br>";
+        var_dump($var1);
         
     ?>
     <br>
-    Square root:<?php echo sqrt(100)?></body>
+    Square root:<?php
+     echo sqrt(100);
+     echo "<br>";
+     echo pow(2,4);
+     echo ""
+    ?>
+</body>
 </html>
