@@ -1,6 +1,6 @@
 <?php
 
-$first="I am shamali";
+$first="i am shamali";
 $second=" I am an undergraduate";
 $sentence=$first;
 $sentence .= $second;
@@ -13,4 +13,8 @@ echo $sentence;
 
 <?php
 echo strtolower($sentence);
+echo "<br>";
+echo strlen($first);
+echo "<br>";
+echo ucfirst($first);
 ?>
