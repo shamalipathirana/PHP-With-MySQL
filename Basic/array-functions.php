@@ -28,6 +28,11 @@
     sort($mynumbers);
     print_r($mynumbers);
     ?>
+    <?php
+    rsort($mynumbers);
+    print_r($mynumbers);
+    ?>
+    
     <pre>
 </body>
 </html>
