@@ -14,10 +14,22 @@
 
     ?>
 
+    <br>
+    <pre>
     <?php
-    echo "<br>";
     print_r($cars);
     ?>
-    
+    <br>
+    <?php
+    $cars[4]="Suziki";
+    $cars[]="Mitsubishi";
+    //print_r($mycars);
+    ?>
+    <br>
+    <pre>
+    <?php
+    print_r($cars);
+    ?>
+    </pre>
 </body>
 </html>
