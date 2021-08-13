@@ -7,6 +7,17 @@
     <title>IF-ELSE</title>
 </head>
 <body>
-    
+    <?PHP
+    $avg_score=50;
+    if($avg_score>70){
+        echo "Grade A";
+    }
+    else if($avg_score>=40){
+        echo "Grade B";
+    }
+    else{
+        echo "plase try again";
+    }
+    ?>
 </body>
 </html>
