@@ -19,6 +19,11 @@
         <li><a href="products">Products</a></li>
     </ul>
     </nav>
-
+    <article>
+        <h3>This is home page</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati itaque, numquam repellat, 
+            hic molestiae fugiat nobis nesciunt eius ratione delectus porro fuga molestias aspernatur libero 
+            aliquam! Rem impedit sapiente quo.</p>
+    </article>
 </body>
 </html>
