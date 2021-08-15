@@ -1,3 +1,16 @@
+
+<?php
+if (isset($_POST['submit'])){
+$username=$_POST['username'];
+$password=$_POST['password'];
+
+if($username=='shamali' && $password=='pass'){
+    echo "Login Successful";
+}else{
+    echo "Invalid username or password";
+}}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +20,7 @@
     <title>Log In</title>
 </head>
 <body>
-    <form action="process-login.php" method="post">
+    <form action="login.php" method="post">
         username:<input type="text" name="username" id=""><br>
         password:<input typr="password" name="password" id=""><br>
         <input type= "submit" value="Log In" name="submit">
