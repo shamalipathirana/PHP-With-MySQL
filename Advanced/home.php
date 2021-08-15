@@ -11,7 +11,7 @@
     <?php
     $news_items=312;
     $category="sports";
-    $url=
+    
     ?>
     <a href="news.php?news_items=32&category=sports">Read News Items</a>
 </body>
